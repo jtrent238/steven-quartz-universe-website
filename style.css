@@ -1,11 +1,38 @@
 /* CSS files add styling rules to your content */
 
-body {
+/*body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
-}
+}*/
 
-h1 {
+/*h1 {
   font-style: italic;
   color: #373fff;
+}*/
+
+
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 3s infinite; 
 }
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}
+}
+
+/*body{
+  background-image: url(https://cdn.glitch.com/a46cdaac-40ab-4b79-abf0-dee6474c5d57%2Fimage.webp?1536589712867);
+}*/
