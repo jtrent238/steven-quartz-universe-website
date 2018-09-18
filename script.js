@@ -3,3 +3,5 @@
 
 // prints "hi" in the browser's dev tools console
 console.log('hi');
+console.log(process.env.QOTD);
+document.getElementById("qotd").innerHTML = process.env.QOTD;
